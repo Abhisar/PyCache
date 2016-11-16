@@ -22,6 +22,6 @@ if __name__ == "__main__":
     cache.insert_into_cache(e3)
     cache.insert_into_cache(e4)
     cache.get_from_cache(e2)
-    cache.delete_from_cache(e4)
-    #cache.__printcache()
+    #cache.delete_from_cache(e4)
+    cache.printcache()
 

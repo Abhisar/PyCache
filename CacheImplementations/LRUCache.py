@@ -62,7 +62,7 @@ class LRUCache(BaseCache.Cache):
         except:
             return False
 
-    def __printcache(self):
+    def printcache(self):
         print(self.__lru_queue)
         print (len(self.__hashmap))
         for x in self.__lru_queue:
