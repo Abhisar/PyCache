@@ -1,4 +1,5 @@
 # PyCache
+License : **Apache 2.0**
 
 This library aims to solve the problem of generic object(Python) caching without depending on 3rd party caching systems 
 like Memcached or Redis for cases where it isn't really required.
